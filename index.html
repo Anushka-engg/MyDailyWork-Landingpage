@@ -1,124 +1,51 @@
 <!DOCTYPE html>
-<html long="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, inital-scale=1.0">
-    <title>Free E-Book</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="utils.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Calculate me!</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+   <link href="utils.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
-    <div class="container mx-auto ">
+  <body>
+      <h1 class="text-center">Calculator</h1>
+      <div class="container flex flex-col items-center bg-color mx-auto ">
+          <div class="row">
+              <input class="input" type="text"/>
+              </div>
+          <div class="row">
+                <button class="button">C</button>
+                <button class="button">%</button>
+                <button class="button">M+</button>
+                <button class="button">M-</button>
+            </div>
+          <div>
+              <button class="button">7</button>
+              <button class="button">8</button>
+              <button class="button">9</button>
+              <button class="button">+</button>
+          </div>
+          <div class="row">
+              <button class="button">4</button>
+              <button class="button">5</button>
+              <button class="button">6</button>
+              <button class="button">-</button>
 
-        <header>
-            <nav class="flex justify-between">
-                <div class="logo font-bold flex item-center ">E-Library.com</div>
-                <ul class="navbar flex items-center">
-                    <li>Home</li>
-                    <li>Library</li>
-                    <li>Community</li>
-                    <li>Follow</li>
-                    <div class="search">
-                        <input type=" text" placeholder="search...">
-                        <button type="submit">Go </button>
-                    </div>
-
-                    </li>
-                </ul>
-            </nav>
-
-            <hr>
-        </header>
-        <main class="min-h-screen">
-            <section class="section1">
-                <div class="flex items-center">
-                    <div class="topleft flex justify-center flex-col px-2">
-                        <img class="bookimg" src="y.png" alt="">
-                        <h1 class="my-1 text-green">Welcome to E-Library</h1>
-                        <h2 class="my-2 text-blue"> E-Library is a library of over 12,000 free eBooks</h2>
-                        <p>Choose among free epub and Kindle eBooks, download them or read them online. You will find the world’s great literature here, with focus on older works for which U.S. copyright has expired. Thousands of volunteers digitized and
-                            diligently proofread the eBooks, for you to enjoy.</p>
-                    </div>
-                    <div class="topright">
-                        <img src="book.png" alt="">
-                    </div>
-
-                </div>
-            </section>
-            <hr>
-            <section class="section2">
-                <h1 class="text item-center my-2">What's India Reading This Month?</h1>
-                <div class="boxes flex ">
-                    <div class="box">
-                    </div>
-                    <div class="boxes flex bookbox"><iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.in/books?id=ZO9gBQAAQBAJ&newbks=0&lpg=PP1&dq=e%20book%20bestseller&pg=PP1&output=embed" width=500 height=500></iframe>
-                    </div>
-
-                    <div class="boxes flex bookbox"><iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.in/books?id=IUf0AgAAQBAJ&newbks=0&lpg=PA1&dq=best%20selling%20books%20in%20india&pg=PA1&output=embed" width=500 height=500></iframe>
-
-                    </div>
-                    <div class="boxes flex bookbox"><iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.in/books?id=Wt3WDQAAQBAJ&newbks=0&lpg=PP1&dq=best%20selling%20books%20in%20india&pg=PP1&output=embed" width=500 height=500></iframe>
-
-                    </div>
-                </div>
-            </section>
-            <hr>
-            <section class="section3">
-                <h1 class="text item-center my-2">Best Seller</h1>
-                <div class="boxes flex ">
-                    <div class="box">
-                    </div>
-                    <div class="boxes flex bookbox"><iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.in/books?id=MDksDwAAQBAJ&newbks=0&lpg=PP1&dq=best%20seller%20book%202023%20in%20india&pg=PP1&output=embed" width=500 height=500></iframe>
-
-                    </div>
-
-                    <div class="boxes flex bookbox"><iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.in/books?id=f7mjDwAAQBAJ&newbks=0&lpg=PP1&dq=best%20seller%20book%202023%20in%20india&pg=PP1&output=embed" width=500 height=500></iframe>
-
-                    </div>
-                    <div class="boxes flex bookbox"><iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.in/books?id=MwVqgO6u-_QC&newbks=0&lpg=PP1&dq=best%20seller%20book%202023%20in%20india&pg=PP1&output=embed" width=500 height=500></iframe>
-
-                    </div>
-
-
-                </div>
-            </section>
-            <hr>
-            <section class="section4">
-                <h1 class="text item-center my-2">International Best Seller</h1>
-                <div class="boxes flex ">
-                    <div class="box">
-                    </div>
-                    <div class="boxes flex bookbox"><iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.in/books?id=FzVjBgAAQBAJ&newbks=0&lpg=PP1&dq=International%20bestseller%20books%20review&pg=PP1&output=embed" width=500 height=500></iframe>
-
-                    </div>
-
-                    <div class="boxes flex bookbox"><iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.in/books?id=3WE1HD5AUDAC&newbks=0&lpg=PP1&dq=International%20bestseller%20books%20review&pg=PP1&output=embed" width=500 height=500></iframe>
-
-
-                    </div>
-                    <div class="boxes flex bookbox"><iframe frameborder="0" scrolling="no" style="border:0px" src="https://books.google.co.in/books?id=TnrrDwAAQBAJ&newbks=0&lpg=PA1&dq=International%20bestseller%20books%20review&pg=PA1&output=embed" width=500 height=500></iframe>
-
-
-                    </div>
-
-                </div>
-
-
-            </section>
-    </div>
-
-    <hr>
-    </main>
-    <footer>
-        <p>Copyright &copy; E-Library.com | All rights reserved.</p>
-
-
-    </footer>
-
-
-    </div>
-
-</body>
+          </div>
+          <div class="row">
+              <button class="button">1</button>
+              <button class="button">2</button>
+              <button class="button">3</button>
+              <button class="button">/</button>
+          </div>
+          <div class="row">
+              <button class="button">0</button>
+              <button class="button">.</button>
+              <button class="button">=</button>
+              <button class="button">*</button>
+          </div>
+      </div>
+      <script src="script.js"></script>
+  </body>
