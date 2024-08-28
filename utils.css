@@ -1,0 +1,88 @@
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.bg-blue {
+    background-color: cornflowerblue;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.font-bold {
+    font-weight: bolder;
+    color: rgb(23, 48, 86);
+    font-size: 1.6rem;
+}
+
+.my-1 {
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+
+.my-2 {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.px-2 {
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.text-green {
+    color: rgb(46, 103, 82);
+    font-size: large;
+}
+
+.text-blue {
+    color: rgb(55, 112, 91);
+    font-size: medium;
+}
+
+.btn {
+    padding: 4px 12px;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: aliceblue;
+    background-color: rgb(90, 123, 149);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.bookimg {
+    width: 107px;
+    padding: 0 55px;
+}
+
+.bookbox {
+    min-width: 23vw;
+    width: 16vw;
+    margin: 0;
+    padding: 10px 10px 10px;
+    padding-bottom: 198px;
+}
